@@ -1,0 +1,15 @@
+# Frontend / Node.js
+node_modules/
+dist/
+.env
+.env.local
+.vscode/
+
+# Backend / .NET
+bin/
+obj/
+*.user
+.vs/
+*.suo
+*.userosscache
+*.sln.docstates
