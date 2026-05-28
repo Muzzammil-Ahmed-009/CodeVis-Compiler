@@ -22,7 +22,7 @@ function App() {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.post('http://localhost:5299/api/compiler', { code }, {
+      const response = await axios.post('https://codevis-compiler.onrender.com/api/compiler', { code }, {
         // Adjust port if necessary
         headers: { 'Content-Type': 'application/json' }
       });
